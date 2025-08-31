@@ -15,7 +15,9 @@ print('Problem 2: \n')
 # a1
 
 x = np.arange(0, 1001) # Array of x integers from 0 to 1000
-print("Because 1 to 1000 is 1000 numbers, but we need the 0, we need 1001 elements")
+print("""
+      a1) Because 1 to 1000 is 1000 numbers, but we need the
+      0, we need 1001 elements. \n""")
 
 # print(len(x)) # To check number of elements
 
@@ -38,8 +40,8 @@ x = (x/1000) * (2 * np.pi) # x/1000 will normalize to 0 to 1
 # %%
 # b2
 
-print("Max:",np.max(x))
-print("Min:",np.min(x))
+print("Max rescaled array:",np.max(x))
+print("Min rescaled array:",np.min(x))
 
 # %%
 # c
@@ -52,12 +54,12 @@ y = np.sin(x) # Array with values of sin(x)
 # %%
 # d
 
-print(y[234]) # Element 234 of y
+print("Element 234 of y:",y[234]) # Element 234 of y
 print("""
       Element 234 in y is not the 234th element because with python
       the first element is 0, second element is element 1
       so the 234th element is element 233 and element 234 is
-      the 235th element in the y array""")
+      the 235th element in the y array. \n""")
 
 # %%
 print('Problem 3: \n')
@@ -77,6 +79,7 @@ plt.ylabel("y")
 
 plt.savefig('sine_graph.png', format="png") #Saves in directory with script
 plt.show()
+print("Sine Graph saved as .png. \n")
 
 
 # %%
@@ -133,6 +136,7 @@ plt.ylabel("y")
 # b2
 plt.savefig('clipped_ramp.pdf', format="pdf") #Saves in directory with script
 plt.show()
+print("Clipped Ramp saved as .pdf, \n")
 
 # %%
 print('Problem 5: \n')
