@@ -8,10 +8,10 @@ assignments.
 
 import os # standard library imports first
 import numpy as np
-import scipy as sp
+# import scipy as sp
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import astropy.io.fits as fits
+# import astropy.io.fits as fits
 
 # My functions
 # Creating a square function
@@ -27,7 +27,7 @@ def square(x):
 
     Returns
     -------
-    int or array
+    squared result: int or array
 
     References
     ----------
@@ -35,6 +35,15 @@ def square(x):
 
     Examples
     --------
+
+    For an integer
+
+    >>> x = 9
+    >>> print(square(x))
+    81
+
+    For an array
+
     >>> a=[1,2,3]
     >>> print(square(a))
     [1, 4, 9]
