@@ -83,7 +83,7 @@ def squareplot(low, high, n, saveplot=False):
     >>> name = "squareplot"
     >>> squareplot(a, b, n, name)
     plot shown
-    
+
     """
 
     x = np.linspace(low, high, n)
@@ -98,7 +98,9 @@ def squareplot(low, high, n, saveplot=False):
     if saveplot:
         plt.savefig(f"{saveplot}.pdf", format="pdf")
         plt.show()
+        print("Plot saved as .pdf.")
     else:
         plt.show()
+        print("Plot displayed but not saved, input string in 4th arguement to save.")
 
     pass
