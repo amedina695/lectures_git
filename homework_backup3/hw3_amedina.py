@@ -7,7 +7,7 @@
 # General libraries
 import numpy as np
 import matplotlib.pyplot as plt
-import supportfunc as sup
+import hw3_amedina_supportfunc as sup
 
 # %%
 print('Problem 2 \n')

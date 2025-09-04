@@ -1,4 +1,4 @@
-"""This file is titled supportfunc.py, with class naming convention, 
+"""This file is titled hw3_amedina_supportfunc.py, with class naming convention, 
 with the purpose of being used to add support functions for homework
 assignments.
 
