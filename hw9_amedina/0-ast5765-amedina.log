@@ -1,0 +1,340 @@
+Alex Medina
+Log for AST 5765, Fall 2025
+*****IN: Wed Aug 20 15:05:09 EDT 2025
+Opened Notepad, started this log, saved as:
+C:\Users\Alex\Desktop\AST5765\0-ast5765-amedina.log
+
+Name:
+Alex Medina
+
+Username:
+amedina
+
+What astronomy classes have you taken?
+Astrophysics I and II, multiple physics courses all the way to graduate Mechanics, Quantum, Stat Mech, and Electrodynamics. Modeling the Universe, Modern Astrophysics, Physical Cosmology.
+
+Are you generally comfortable with calculus and physics?
+Extremely comfortable with calculus, going over for 8 years now since junior in HS for both general physics and particularly calculus.
+
+Have you ever programmed a computer?
+Yes.
+
+In what language(s)?
+Mostly python, but have tried both Java and C++.
+
+
+Have you taken a programming class, and if so which?
+Yes, I've actually only ever taken one coding class which was called Modeling the Universe, a graduate level course at Columbia. Otherwise, I am mostly self taught.
+
+Have you taken statistics or probability?
+I have taken a few statistics and probability courses since HS.
+
+Will you be attending the DPS conference this year, or will you be away otherwise?
+No.
+
+Why are you taking this course?
+Requirement for grad program but also looking to refine my skills, I am always learning.
+
+Are there particular topics you hope to learn?
+Perhaps more advanced python, or tricks to write code in fewer lines, with respect to data analysis.
+
+If you have programmed outside of a course before, please briefly describe:
+Other course, mostly self taught, since a freshman in undergrad through YouTube tutorials, online websites and with the help of various friends in CS.
+
+If you have worked with scientific data before, briefly describe your experience:
+I've handled data of FRB's(fast radio bursts), various stints, now images of Titan from Cassini. In coursework, such as Modern Astrophysics and Modeling the Universe, I've used data to look at transits and even data from APOGEE to look at chemical composition.
+
+Please describe any projects in astronomy, including involvement in amateur groups, owning a telescope, research, etc.:
+Actually conducted my own observational campaign using SETI's Allen Telescope Array, learning how to operate the telescope remotely, debugging, etc.
+
+
+I made a folder titled hw0_amedina, and I am copying this log into said folder. Then I am compressing the folder by right clicking (for Windows), choosing the option Compress and choosing to compress as a ZIP.
+
+*****OUT: Wed Aug 20 15:32:16 EDT 2025
+
+
+*****IN: Fri Aug 22 14:50:33 EDT 2025
+Opened Notepad, started this log, saved as:
+C:\Users\Alex\Desktop\AST5765\0-ast5765-amedina.log
+
+Starting with installation for anaconda by going straight to the anaconda distribution website. I've completed the download, following th pop up instructions.
+
+Already have a personal GitHub account but creating a new account with the UCF email. I've installed and followed pop up instructions. 
+
+Now that that's all setup, my preference is VSCode for notebooks so I use the snipping tool to take a screenshot and add it to my homework folder, noting, it has python versino 3.11 but I know how to install different versions, create environments, etc if need be.
+
+I prefer Git, so I just screenshot the terminal on VSCode after typing "git status."
+
+I already have access to Stokes using MobaXterm, so I simply opened it up, and conencted to Stokes, typed in "ls" and took a screenshot, again, naming it and adding to hw1 folder.
+
+Having completed most of the steps for the homework assignment I do the following:
+- Once I finish this log, I will end it with OUT, save it, can create a copy. I will paste that copy into the hw1 folder in the homework folder of my AST5765 folder.
+- I will zip the hw1 folder, since I am on Windows, by right clicking, choosing compress to, and selecting the compress type as .ZIP.
+- Once the .ZIP is create I will submit to Webcourses.
+
+*****OUT: Fri Aug 22 15:19:14 EDT 2025
+
+
+*****IN: Fri Aug 29 15:47:17 EDT 2025
+Opened Notepad, started this log, saved as:
+C:\Users\Alex\Desktop\AST5765\0-ast5765-amedina.log
+
+I am on Windows, so I can make a folder by simply clicking and dragging. However, I know how to use the Windows specific Command Prompt(windows terminal); it brings me my home directory, so I cd into the homework folder the Desktop/AST5765/homework, verify its contents with 'dir' and mkdir hw2_amedina.
+
+I prefer staring in a Jupyter notebook with the editor on VSCode, so I open up VSCode and start a notebook. I select an environment that I created called astrDATA and begin my assignment. One quick asside is that I look the files on webcourses to see the homework structure.
+
+After verifying the homework structure I am starting on the notebook.
+
+Finished problem 1 which was just setup for folders, and finished actuall code problem 2 by about 4:07.
+
+Got through to problem 4 by the end of class:
+
+*****OUT: Fri Aug 29 16:23:31 EDT 2025
+
+
+*****IN: Sat Aug 30 13:24:04 EDT 2025
+Opened Notepad, started this log, saved as:
+C:\Users\Alex\Desktop\AST5765\0-ast5765-amedina.log
+
+Picked up where I left off on problem 4. But first, I am saving to GitHub to back it up. So I just backed it up using my terminal with Git add ., then git commit -m"hw2_back1", then git push. 
+
+Now I need to continue with problem 5 but I finish it pretty quickly.
+
+As a final check, I see to make sure my formatting is correct. Now that I know formatting is correct, I am gonna push to GitHub one more time to save.
+
+Now for testing on Stokes:
+a) I am on windows so I am going into MobaXterm and simply clicking on my stokes user session, the way I have it setup it doesn't require password.
+b) I have a general ast5765 folder that I cd into, and mkdir hw2_amedina for the hw2 folder.
+c) I have a jupyter notebook so I save it as a .py file. Then I just drag and drop it into the MobaXterm folder panel.
+d) To test, I first activate the class environment using module load anaconda then conda activate course_ast4762c. I tried to run but getting an error that is out of my control: OpenBLAS blas_thread_init: pthread_create failed for thread 6 of 32: Resource temporarily unavailable.
+
+Going to continue when that gets resolved.
+
+*****OUT: Sat Aug 30 14:07:27 EDT 2025
+
+
+*****IN: Sun Aug 31 14:35:30 EDT 2025
+Opened Notepad, started this log, saved as:
+C:\Users\Alex\Desktop\AST5765\0-ast5765-amedina.log
+
+Continueing from last log.
+d) I get keep getting that error for the Stokes cluster, but I am testing it on my own linux terminal (WSL). It works but there are some formatting things, so I am just adding some verification methods and spacing in between printing statements. So I resave to GitHub and test again. It works well on my own linux system.
+e) I submitted to github, explained using git add ., then git commit -m"" and git push in my terminal on VSCode.
+f) I look at the commit history on GitHub and screenshot.
+g) Copied all content to the Stokes folder and hw2 folder.
+h) I just drag and drop all the contents onto MobaXterm including the log. Then I tar as using the tar vzcf command. Dowloading straight from the folders panel and submitting.
+
+
+*****OUT: Sun Aug 31 15:00:46 EDT 2025
+
+*****IN: Thu Sep  4 12:55:32 EDT 2025
+Opened Notepad, started this log, saved as:
+C:\Users\Alex\Desktop\AST5765\0-ast5765-amedina.log
+
+1) 
+Starting out on homework 3. FIrst, I open up a terminal on windows, and cd to my ast5765 folder, and within that folder I mkdir a new directory using the mkdir command, titled hw3_amedina. I'm going to alternate between a jupyter notebook and a .py file so I open both up, one to test and another to submit, and open up a terminal to push to Github frequently.
+
+2) 
+a) I copied the module_template_with_docstring.py file and saved as a support file that I can edit.
+b) The important parts of this support file begins with explanations like a docstring at the beginning and continous comments so that you understand what your support functions are doing. Also, imports are extremely important at the beginning because some methods that you create may depend on certain python packages.
+c) Cleaning the docstring as I go. I am testing first on a jupyter notebook then adding to support file.
+d) So I wrote a function to return the square of the output, first I treid with just an integer, then I did an if and else statement for the array bu that didn't work, so I found a numpy method to return arrays and tested and it worked well. So I pushed it to GitHub to save.
+e) I already wrote the function, but I added comments and supplied the docstring with more detail following the template, including an example and references.
+f) I already tested and documented bugs, but the first test involved just starting withi an integer as return x**2 for just an input of x, but of course, that doesn't work with arrays, then I tried an if else statement, by using the data type of the input x, but there are a lot of array_like inputs so I result to using np.asarray to convert any input to an array.
+g) Adding more detail to the docstring and more examples. Then pushing to GitHub and taking a screenshot of log history.
+h) Importing it an testing out.
+i) For the 5x5 array, I know how to do it with nested brackets and commas but thats tedious. Alas, numpy comes to the rescue with https://numpy.org/doc/2.2/reference/generated/numpy.reshape.html which shows exactly how to do this.
+
+
+3)
+Worked out in file.
+I was having some issues with the save functionality. The main issue was saving the pdf, but I figured I can just use an if statement and f"" the plot to have the appropriate naming convention. Saved to GH.
+
+As a final touch, I add some statements to show it succefullyt displayed or saved.
+
+4)
+a) I am logging onto stokes using MobaXterm for Windows.
+b) I make a folder using the mkdir command and name it hw3_amedina.
+c) I copy my .py file (after converting it) to Stokes by dragging and dropping. Including the supportfile.
+d) Tested it on stokes just using the module load anaconda and it works.
+e) Pushed to GH.
+f) Taking screenshot of GH history.
+g) Dragged and dropped screenshots to Stokes.
+h) 
+a. I saved and drag and drop log onto stokes hw3 folder.
+b. I tar using tar vzcf command.
+c. I drag and drop from Stokes onto my local handin folder.
+d. I submit to webcourses.
+
+*****OUT: Thu Sep  4 15:48:12 EDT 2025
+
+
+*****IN: Thu Sep 11 19:41:40 EDT 2025
+
+1) 
+Starting out on homework 4. First, I open up a terminal on windows, and cd to my ast5765 folder, and within that folder I mkdir a new directory using the mkdir command, titled hw4_amedina. I'm going to alternate between a jupyter notebook and a .py file so I open both up, one to test and another to submit, and open up a terminal to push to Github frequently.
+
+2)
+a) A numpy method that draws a random sample of N draws from a Gaussian distribution of width sigma and a mean is np.random.normal.
+b) Along with np.random.normal, the website pages features various examples of histograms which I am using exactly.
+c) The numpy page also has plotting the normal distribution but wording from the assignment is a little weird. Looking at the gaussian distribution function, I add it to my method, but the point along x iwll be replaced by the bin center, per the assignment.
+
+Finished up through problem 3, just need to work through problem 4 on paper in the future.
+
+*****OUT: Thu Sep 11 20:53:43 EDT 2025
+
+*****IN: Sat Sep 13 15:49:16 EDT 2025
+
+3)
+Working on the last problem, looking at some sources like wikipedia.
+
+Doing a final sweep through the homework.
+
+4)
+a) I am logging onto stokes using MobaXterm for Windows.
+b) I use the UCF VPN. I make a folder using the mkdir command and name it hw4_amedina.
+c) I copy my .py file (after converting it) to Stokes by dragging and dropping.
+d) Tested it on stokes just using the module load anaconda and it works with various print statements.
+e) Pushed to GH.
+f) Taking screenshot of GH history.
+g) Dragged and dropped screenshots to Stokes.
+h) 
+a. I saved and drag and drop log onto stokes hw4 folder.
+b. I tar using tar vzcf command.
+c. I drag and drop from Stokes onto my local handin folder.
+d. I submit to webcourses.
+
+*****OUT: Sat Sep 13 16:28:15 EDT 2025
+
+
+*****IN: Sat Sep 20 13:07:47 EDT 2025
+
+1)
+Done
+
+2)
+Continuation of the sigma clipping from practicum 3. 
+
+3)
+Creating a function for sigma clipping. Running some tests but its not producing the results I expected so I'm trying again. later.
+
+*****OUT: Sat Sep 20 14:20:54 EDT 2025
+
+*****IN: Sun Sep 21 11:01:09 EDT 2025
+
+3)
+Continuation of problem 3, creating a function for sigma clipping, however, worked on smoe updates to make the above cleaner.
+
+It was just a repeat of the above steps so that was easy in working through, however, the mask part was confusing so I asked AI what was wrong. I had an if-else statement for the good_mask but it embdedded a second if statement for the shape of the mask.
+
+Additionally, I was outputting a clipped version of the x array, so I was clipping it within the method instead of just updating the mask, I was outputting an actual array so it could work but it was better to index, so AI only added 2 lines, and fixed my clip array to a masked bitwise &= array update and it works.
+
+4)
+a) I am logging onto stokes using MobaXterm for Windows.
+b) I use the UCF VPN. I make a folder using the mkdir command and name it hw5_amedina.
+c) I copy my .py file (after converting it) to Stokes by dragging and dropping.
+d) Tested it on stokes just using the module load anaconda and it works with various print statements.
+e) Pushed to GH using my VScode terminal.
+f) Taking screenshot of GH history and copying to hw folder.
+g) Dragged and dropped screenshot to Stokes.
+h) 
+a. I saved and drag and drop log onto stokes hw5 folder.
+b. I tar using tar vzcf command.
+c. I drag and drop from Stokes onto my local handin folder.
+d. I submit to webcourses.
+
+*****OUT: Sun Sep 21 12:07:41 EDT 2025
+
+
+*****IN: Sat Sep 27 19:49:12 EDT 2025
+
+Homework 6
+
+1.
+Completed.
+
+2.
+Completed on Google Doc and saved as a .pdf.
+
+
+*****OUT: Sat Sep 27 12:07:41 EDT 2025
+
+
+*****IN: Sun Sep 28 9:50:32 EDT 2025
+
+3. 
+Completed with A LOT of debuging and trial and error.
+
+4. 
+a) I am logging onto stokes using MobaXterm for Windows.
+b) I use the UCF VPN. I make a folder using the mkdir command and name it hw6_amedina.
+c) I copy my .py file (after converting it) to Stokes by dragging and dropping.
+d) Tested it on stokes just using the module load anaconda. Not enough resources? So testing on local linux window, and it works.
+e) Pushed to GH using my VScode terminal.
+f) Taking screenshot of GH history and copying to hw folder.
+g) Dragged and dropped screenshot to Stokes.
+h) 
+a. I saved and drag and drop log onto stokes hw5 folder.
+b. I tar using tar vzcf command.
+c. I drag and drop from Stokes onto my local handin folder.
+d. I submit to webcourses.
+
+*****OUT: Sun Sep 28 11:06:43 EDT 2025
+
+
+*****IN: Thu Oct  9 18:15:19 EDT 2025
+
+1.
+Created homework file.
+
+Copied and pasted the work done from PRACTICUM into the assignment.
+
+2.
+Looking at astropy fit online, there seem to be a couple ways, but I tested .addhistory and a more pd way. Otherwise, didn't have to many problems other than I ran a few more times than necesary so just redowloading the data and running once.
+
+3.
+Completed rubric.
+
+4. 
+Tested on Stokes.
+
+*****OUT: Thu Oct  9 19:44:16 EDT 2025
+
+
+*****IN: Sat Oct 18 15:01:40 EDT 2025
+
+1.
+Created homework file.
+
+Copied and pasted the work done from PRACTICUM into the assignment.
+
+2.
+Essentially a rework of the practicum work.
+
+3.
+Tested on Stokes.
+
+*****OUT: TSat Oct 18 16:02:40 EDT 2025
+
+*****IN: Tue Nov  4 15:57:29 EST 2025
+
+1. 
+Created homework file.
+
+2.
+First, I eyeballed the values for the star location, but did some guess and check using some sub arrays from my midterm.
+
+It worked well, and the offset calculations were easy.
+
+3.
+I reworked my midterm fitting equation in a method to reproduce across all images and 9 total caclulations in a loop. But, it took some time to debug, although mostly just follows logic from my midterm.
+
+Submitted to GH and no real issues.
+
+
+*****OUT: Tue Nov  4 18:53:45 EST 2025
+
+
+
+
+
