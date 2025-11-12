@@ -1,0 +1,40 @@
+Alex Medina
+Log for AST 5765 Final, Fall 2025
+
+*****IN: 
+
+PROBLEM 1)
+
+Bouchy, F. HD189733b: The Transiting Hot Jupiter That Revealed a Hazy and Cloudy Atmosphere. Springer Reference (2018).
+https://link.springer.com/rwe/10.1007/978-3-319-55333-7_33
+
+The
+
+Charbonneau, D., et al. The Broadband Infrared Emission Spectrum of the Exoplanet HD 189733b. arXiv (2008).
+https://arxiv.org/abs/0802.0845
+
+The
+
+
+
+
+PROBLEM 2)
+
+IRAC Handbook: https://irsa.ipac.caltech.edu/data/SPITZER/docs/irac/iracinstrumenthandbook/IRAC_Instrument_Handbook.pdf
+
+The available data products consist of Level 0 (raw) data, Level 1 (BCD) data, calibration files, log files, and Level 2 (post-BCD) data. Each file corresponds to a single exposure
+
+After the name of the telescope, the first partition gives the instrument (“I” = IRAC), and the number after the “I” gives the channel (in this case, 4). The next part gives the AORKEY, then we have the EXPID, DCENUM, and the version number (how many times these data have been processed through the pipeline). One should generally use only the data from the highest version  number, in case multiple versions have been downloaded from the archive. To verify that the data are from the latest pipeline version, check the CREATOR keyword in the header. Finally, there is a group of letters that specify what kind of data are in the file (see Table 6.1 above), and the file type (usually “fits” or “log”). 
+
+AORKEY is a unique identification number or digit sequence for each observation; it is also part of the filename for each BCD. EXPID is an exposure counter incremented within a given AOR for each data-taking command. Most data-taking commands generate multiple files: one per array in full array mode. The DCENUM is a counter of individual frames (per wavelength) from an individual command; it can be used to separate frames generated with internal repeats. The only observations with non-zero DCENUM are channel 4 BCDs for 100/200 second frame time (taken as two/four 50 second frames). In high dynamic range mode, the long and short exposures are generated with independent commands and have different EXPIDs. Thus, for example, data from 12-second high dynamic range observations can be separated into long and short frames using the odd or even EXPIDs.
+
+
+
+
+
+
+*****OUT:
+
+
+
+
