@@ -1,0 +1,5 @@
+wget -N http://www.ast.cam.ac.uk/~optics/cohsi/www/ohsky/graph12.jpg
+wget -N http://www.ast.cam.ac.uk/~optics/cohsi/www/ohsky/graph13.jpg
+wget -N http://www.ast.cam.ac.uk/~optics/cohsi/www/ohsky/graph14.jpg
+wget -N http://www.ast.cam.ac.uk/~optics/cohsi/www/ohsky/graph15.jpg
+wget -N http://www.ast.cam.ac.uk/~optics/cohsi/www/ohsky/database.htm

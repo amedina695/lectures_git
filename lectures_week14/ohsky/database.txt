@@ -1,0 +1,299 @@
+The OH Sky Line Database
+
+Last Update: 4 December 1997
+
+The main reference used for this line list intensity is Maihara et al
+(1993) with Olivia & Origilia (1992) filling up some lines in the
+short and long wavelength ends of the 1-2 microns range. Some fine
+tuning of the original data was done by de-blending a few lines. Some
+patterns are regular (e.g. P1 is three times brighter than P2). Line
+intensities are variable and references in the literature do disagree
+(e.g. Maihara et al (1993) is middle of the road, Olivia & Origilia
+(1992) are factor of two lower, while Ramsey et al (1992) records
+intensities of 3-4 higher. The strength of the OH lines is most likely
+site dependent and is definitely time dependent. As to the measurement
+of the continuum between the lines, Tom Herbst (1994) does a good job
+at collating information. With OH suppression, the actual continuum
+left after the lines are masks is the limiting background, so it will
+be important to measure the continuum at the site.
+
+1. The first three columns give the line identification. The P and R
+   branch lines are doublet while the Q-branch lines are
+   quadruplet. The nomenclature used is Chamberlain (1955), except
+   lines shortward of 1.0729 micron which use Herzburg (1955)
+   notation.
+
+2. The fourth columns gives the line position in angstroms. Most of
+   these numbers are derived from the molecular constants given in
+   Abrams et al (1994). Maihara et al. wavelengths for the Q-branch
+   lines which are very close to the theoretical positions of the Q1
+   lines are used.
+
+3. The fifth column gives the difference between the two members of
+   the doublet (all the lines listed are in fact doublets unresolvable
+   at R < 100000 which is also the expected thermal and pressure
+   broadening width of these lines) or the two extreme members of the
+   quadruplet in angstroms (for the Q-branch lines).
+
+4. The sixth column gives the intensity of the lines in
+   photons*s-1*m-2*arcsec-2. Some lines are kept without
+   intensities. These might be contributing significantly to the
+   strength of another nearby line. For these lines, all the strength
+   of the line was assigned to one of the two possible members of the
+   blends. The choice was made by realizing that the observed
+   wavelengths as given in Maihara et al. almost exactly coincided
+   with one of the two lines (obviously the main contributor). Lines
+   shorter than 1.0728 micron are taken from Osterbrock et al (1996)
+   and have been assigned relative intensities based on their
+   measurements with a scale appropriate to each order, most likely
+   underestimated. Then again, these line intensities due vary with
+   location and time.
+
+Questions or comments about the above to Kim Ennico
+kennico@ast.cam.ac.uk Last modified: 4 December 1997
+
+
+OH Skylines
+9-5 P2 (2.5) 10103.6 - 3.75 *scale1
+9-5 P1e,f (3.5) 10124 0.2 7 *scale1
+9-5 P2 (3.5) 10153 - 3 *scale1
+9-5 P1e,f (4.5) 10171.7 0.4 4.3 *scale1
+4-1 R2 (2.5) 10181 - 0.9 *scale1
+4-1 R1 (2.5) 10189.7 - 4.9 *scale1
+4-1 R1 (1.5) 10203 - 2.25 *scale1
+9-5 P2 (4.5) 10208.8 - 1.75 *scale1
+4-1 R1 (1.5) 10211 - 7.5 *scale1
+9-5 P1e,f (5.5) 10225.8 0.6 2 *scale1
+4-1 R2 (0.5) 10230.7 - 2.1 *scale1
+4-1 Q1 (1.5) 10286.6 - 9.75 *scale1
+4-1 Q1e,f (2.5) 10296 0.4 1.8 *scale1
+4-1 P2 (1.5) 10347.3 - 0.2 *scale2
+4-1 P1 (2.5) 10372.9 - 1 *scale2
+4-1 P2 (2.5) 10396.5 - 0.375 *scale2
+4-1 P1e,f (3.5) 10418.4 0.3 0.7 *scale2
+4-1 P2 (3.5) 10450.5 - 0.25 *scale2
+4-1 P1e,f (4.5) 10468.9 0.5 0.25 *scale2
+5-2 R1 (1) 10728.8 0.1 12
+5-2 R2 (1) 10743.2 0 4
+5-2 R1 (0) 10751 0.1 49
+5-2 R2 (0) 10772.1 0.1 16
+5-2 Q2 (1) 10829.3 0 15
+5-2 Q1 (1) 10831.3 0 45
+5-2 Q2 (2) 10837.8 0 5.5
+5-2 Q1 (2) 10841.7 0.1 16.5
+5-2 P2 (1) 10895.7 0.1 11
+5-2 P1 (1) 10923.4 0.2 27
+5-2 P2 (2) 10948.4 0.1 11
+5-2 P1 (2) 10972.3 0.3 39
+5-2 P2 (3) 11006.3 0 11
+5-2 P1 (3) 11026.8 0.5 28
+5-2 P2 (4) 11069.4 0.2 8
+5-2 P1 (4) 11087 0.7 17
+5-2 P2 (5) 11137.9 0.3 1
+5-2 P1 (5) 11153 0.9 4
+6-3 R1 (2) 11309.8 0.2 3
+6-3 R1 (1) 11328.1 0.1 6
+6-3 R1 (0) 11351.1 0.1 3
+6-3 Q2 (1) 11434.6 0 5.5
+6-3 Q1 (1) 11436.8 0 16.5
+6-3 Q2 (2) 11444.1 0.1 4.25
+6-3 Q1 (2) 11448.5 0.1 12.75
+6-3 P2 (1) 11505.5 0.2 3
+6-3 P1 (1) 11535.6 0.2 45
+6-3 P2 (2) 11562.1 0.1 3
+6-3 P1 (2) 11588.5 0.3 54
+6-3 P2 (3) 11624.7 0 11
+6-3 P1 (3) 11647.6 0.5 38
+6-3 P2 (4) 11693.2 0.2 6
+6-3 P1 (4) 11712.9 0.7 92
+6-3 P2 (5) 11767.6 0.4 2
+6-3 P1 (5) 11784.8 0.9 7
+6-3 P2 (6) 11848.2 0.5 1
+6-3 P1 (6) 11863.3 1.2 3
+7-4 R1 (3) 11972.6 0.2 25
+7-4 R2 (3) 11980 0.2 2
+7-4 R1 (2) 11985.4 0.2 30
+7-4 R2 (2) 11996.9 0.1 11
+7-4 R1 (1) 12003.8 0.1 44
+7-4 R2 (1) 12021 0 25
+7-4 R1 (0) 12027.6 0.1 85
+7-4 R2 (0) 12052.6 0.1 26
+7-4 Q2 (1) 12117.1 0 27.75
+7-4 Q1 (1) 12119.3 0 83.25
+7-4 Q2 (2) 12127.8 0.1 10
+7-4 Q1 (2) 12132.6 0.1 30
+7-4 Q2 (3) 12145.4 0.1 4.5
+7-4 Q1 (3) 12151.6 0.1 13.5
+7-4 P2 (1) 12193.1 0.2 38
+7-4 P1 (1) 12225.9 0.2 109
+7-4 P2 (2) 12254.4 0.1 59
+7-4 P1 (2) 12283.6 0.3 113
+7-4 P2 (3) 12322.5 0 22
+7-4 P1 (3) 12348.2 0.5 82
+7-4 P2 (4) 12397.5 0.2 6
+7-4 P1 (4) 12419.9 0.8 114
+7-4 P2 (5) 12479.3 0.4 3
+7-4 P1 (5) 12499 1 31
+7-4 P1 (6) 12585.5 1.3 4
+O2 - - 12685.7 - 80
+O2 - - 12695.1 - 64
+O2 - - 12702 - 37
+O2 - - 12714 - 39
+O2 - - 12726.1 - 20
+O2 - - 12744.6 - 24
+8-5 R1 (3) 12749.3 0.1 45
+8-5 R1 (2) 12760.9 0.1 76
+O2 - - 12776 - 32
+8-5 R1 (1) 12779.1 0.1 149
+O2 - - 12798 - 57
+8-5 R1 (0) 12803.5 0.1 107
+O2 - - 12824.8 - 25
+8-5 R2 (0) 12831.1 0.1 58
+O2 - - 12845 - 35
+O2 - - 12866 - 31
+8-5 Q2 (1) 12900 0.1 65.25
+8-5 Q1 (1) 12902.2 0 185.75
+8-5 Q2 (2) 12912.3 0.1 21
+8-5 Q1 (2) 12917.6 0.1 63
+8-5 Q2 (3) 12932.5 0.1 6.5
+8-5 Q1 (3) 12939.6 0.2 19.5
+8-5 P2 (1) 12982.1 0.2 67
+8-5 P1 (1) 13018.1 0.2 187
+8-5 P2 (2) 13049.2 0.1 82
+8-5 P1 (2) 13081.7 0.4 277
+8-5 P2 (3) 13124.2 0 99
+8-5 P1 (3) 13153.2 0.6 77
+8-5 P2 (4) 13207.2 0.2 47
+8-5 P1 (4) 13232.9 0.8 104
+8-5 P1 (5) 13321 1.1 29
+8-5 P1 (6) 13417.9 1.4 26
+2-0 P2 (1) 14465.2 0.2 7
+2-0 P1 (1) 14515 0.3 22
+2-0 P2 (2) 14560 0.1 12
+2-0 P1 (2) 14600.8 0.6 19
+2-0 P2 (3) 14661.1 0.2 5
+2-0 P1 (3) 14694.4 0.9 15
+3-1 R1 (3) 14736 0.6 6
+3-1 R1 (2) 14779.7 0.5 13
+2-0 P1 (4) 14795.8 1.2 2
+3-1 R2 (2) 14801.7 0.2 13
+3-1 R1 (1) 14829 0.4 22
+3-1 R2 (1) 14860.3 0 6
+3-1 R1 (0) 14883.6 0.2 30
+2-0 P1 (5) 14905 1.5 4
+3-1 R2 (0) 14927.8 0.2 9
+3-1 Q2 (1) 15048.8 0 25.5
+3-1 Q1 (1) 15051.4 0 76.5
+3-1 Q2 (2) 15059.9 0.1 9.5
+3-1 Q1 (2) 15064.8 0.1 28.5
+3-1 Q2 (3) 15078.1 0 2.75
+3-1 Q1 (3) 15084.2 0.1 8.25
+3-1 P2 (1) 15183 0.3 20
+3-1 P1 (1) 15236.8 0.3 90
+3-1 P2 (2) 15283.6 0.1 45
+3-1 P1 (2) 15328.2 0.6 177
+3-1 P2 (3) 15391.1 0.2 54
+3-1 P1 (3) 15427.9 0.9 163
+4-2 R1 (4) 15457.9 0.6 4
+4-2 R1 (3) 15496.6 0.6 17
+3-1 P2 (4) 15505.5 0.4 44
+4-2 R2 (3) 15513.6 0.3 20
+3-1 P1 (4) 15536.1 1.2 71
+4-2 R1 (2) 15541.9 0.5 44
+4-2 R2 (2) 15565.9 0.2 32
+4-2 R1 (1) 15593.4 0.4 113
+3-1 P2 (5) 15627.1 0.7 -
+4-2 R2 (1) 15627.3 0 56
+4-2 R1 (0) 15650.7 0.2 188
+3-1 P1 (5) 15652.7 1.6 -
+4-2 R2 (0) 15698.2 0.2 41
+3-1 P2 (6) 15756 1 8
+O2 - - 15800 - 5
+4-2 Q2 (1) 15826 0 84.5
+4-2 Q1 (1) 15828.9 0 253.5
+4-2 Q2 (2) 15838.2 0.1 23
+4-2 Q1 (2) 15843.7 0.1 69
+4-2 Q2 (3) 15858.2 0 7.25
+4-2 Q1 (3) 15865 0.2 21.75
+4-2 Q2 (4) 15885.7 0 1.25
+4-2 Q1 (4) 15892.9 0.3 3.75
+4-2 P2 (1) 15968.2 0.3 100
+4-2 P1 (1) 16026.4 0.3 299
+4-2 P2 (2) 16075.4 0.1 125
+4-2 P1 (2) 16124.2 0.6 296
+4-2 P2 (3) 16190.2 0.1 61
+4-2 P1 (3) 16230.9 1 297
+5-3 R1 (5) 16265.9 0.6 2
+5-3 R2 (5) 16275.3 0.6 1
+5-3 R1 (4) 16297.8 0.6 14
+5-3 R2 (4) 16311.1 0.5 5
+4-2 P2 (4) 16312.7 0.4 72
+5-3 R1 (3) 16337.3 0.6 56
+4-2 P1 (4) 16346.8 1.3 138
+5-3 R2 (3) 16355.9 0.4 24
+5-3 R1 (2) 16384 0.5 51
+5-3 R2 (2) 16410.2 0.2 16
+5-3 R1 (1) 16437.7 0.4 174
+4-2 P2 (5) 16443.1 0.7 19
+4-2 P1 (5) 16472 1.7 20
+5-3 R2 (1) 16474.6 0 63
+5-3 R1 (0) 16497.9 0.2 152
+5-3 R2 (0) 16549.3 0.2 92
+4-2 P2 (6) 16581.8 1.1 3
+4-2 P1 (6) 16606.5 2.1 20
+5-3 Q2 (1) 16684.6 0.1 107.75
+5-3 Q1 (1) 16687.8 0 323.25
+5-3 Q2 (2) 16698.1 0.1 36
+5-3 Q1 (2) 16704.3 0.1 108
+5-3 Q2 (3) 16720.2 0.1 11.5
+5-3 Q1 (3) 16727.9 0.2 34.5
+5-3 Q2 (4) 16750.7 0 1.5
+5-3 Q1 (4) 16759 0.3 4.5
+5-3 P2 (1) 16835.9 0.3 71
+5-3 P1 (1) 16899.1 0.4 244
+5-3 P2 (2) 16950.4 0.1 122
+5-3 P1 (2) 17004.1 0.7 301
+5-3 P2 (3) 17073.7 0.1 82
+5-3 P1 (3) 17119 1 199
+5-3 P2 (4) 17205.6 0.4 60
+5-3 P1 (4) 17243.9 1.4 107
+6-4 R1 (3) 17278.1 0.6 47
+6-4 R2 (3) 17298.6 0.4 12
+6-4 R1 (2) 17326.1 0.5 58
+5-3 P2 (5) 17346.4 0.7 53
+6-4 R2 (2) 17354.9 0.2 42
+5-3 P1 (5) 17379.1 1.8 60
+6-4 R1 (1) 17381.9 0.4 126
+6-4 R2 (1) 17422.3 0 45
+6-4 R1 (0) 17445.2 0.2 160
+5-3 P2 (6) 17496.4 1.1 9
+6-4 R2 (0) 17501.1 0.2 55
+5-3 P1 (6) 17524.6 2.2 28
+6-4 Q2 (1) 17645 0.1 90.75
+6-4 Q1 (1) 17648.4 0 272.25
+6-4 Q2 (2) 17660 0.1 32.5
+6-4 Q1 (2) 17667 0.1 97.5
+6-4 Q2 (3) 17684.8 0.1 13
+6-4 Q1 (3) 17693.6 0.2 39
+6-4 Q2 (4) 17719 0 0.75
+6-4 Q1 (4) 17728.6 0.3 2.25
+6-4 P2 (1) 17806.6 0.3 72
+6-4 P1 (1) 17875.4 0.4 268
+6-4 P1 (2) 17989 0.7 204
+6-4 P2 (3) 18063 0.1 12
+6-4 P1 (3) 18113.5 1.1 27
+8-6 R1 (5) 19523.3 0.4 14
+7-5 P1 (5) 19555.7 2.1 10
+8-6 R1 (3) 19588.1 0.5 6
+8-6 R1 (2) 19637.1 0.5 18
+8-6 R2 (2) 19672.6 0.3 7
+8-6 R1 (1) 19696.7 0.4 32
+8-6 R2 (1) 19746.1 0.1 10
+8-6 R1 (0) 19766.5 0.2 46
+8-6 R2 (0) 19834.3 0.2 15
+8-6 Q2 (1) 19999.5 0.1 23.25
+8-6 Q1 (1) 20002.7 0 69.75
+8-6 Q2 (2) 20019.4 0.2 7
+8-6 Q1 (2) 20027.7 0.1 21
+8-6 Q2 (3) 20052.1 0.2 1.25
+8-6 Q1 (3) 20063.5 0.2 3.75 
