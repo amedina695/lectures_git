@@ -1,20 +1,26 @@
 Alex Medina
 Log for AST 5765 Final, Fall 2025
 
-*****IN: 
+*****IN: Friday Nov 14 14:35:12 EST 2025
 
 PROBLEM 1)
 
-Bouchy, F. HD189733b: The Transiting Hot Jupiter That Revealed a Hazy and Cloudy Atmosphere. Springer Reference (2018).
-https://link.springer.com/rwe/10.1007/978-3-319-55333-7_33
+Bouchy, F., et al. ELODIE metallicity-biased search for transiting Hot Jupiters II. A very hot Jupiter transiting the bright K star HD189733. arXiv (2005). https://arxiv.org/abs/astro-ph/0510119
 
-The
+Notes:
+- The star HD189733, belonged to the "ELODIE metallicity-biased search for transiting Hot Jupiters” survey, which bias the target sample for high-metallicity stars which are more likely to host planets.
+- HD189733 is a dwarf star with an effective temperature of 5050 +- 50 K, and radius of 0.75 +- 0.01 solar radii, and a mass of 0.80-0.85 solar mass.
+- A deviation from the Keplerian solution of about +- 40 m s^−1 occurs because the transiting planet occults first the approaching limb and then the receding limb of the rotating star.
+- From the ephemeris predicted by the radial velocities, 3 transit events (nights 2453629, 2453638 and 2453640) have been followed in photometry with the 1.20-m telescope at OHP.
 
-Charbonneau, D., et al. The Broadband Infrared Emission Spectrum of the Exoplanet HD 189733b. arXiv (2008).
-https://arxiv.org/abs/0802.0845
 
-The
+Bouchy, F. HD189733b: The Transiting Hot Jupiter That Revealed a Hazy and Cloudy Atmosphere. Springer Reference (2018). https://link.springer.com/rwe/10.1007/978-3-319-55333-7_33
 
+Notes:
+- The vsini of the star (3.5 km s−1) is sufficiently large to detect the RV anomaly through the Rossiter-McLaughlin effect of a Jupiter size companion crossing the stellar disk. F. Bouchy thus decides to attempt to measure the transit in spectroscopy using ELODIE.
+- Observations of exoplanet atmospheres are of three types: transmission spectrophotometry (detect the light that passes through the planet’s atmosphere as it transits in front of its star), emission spectrophotometry (detecting the direct emission from a planet’s atmosphere in subtracting the combined light of the star and the planet by the stellar light only), and high-resolution transmission spectroscopy.
+- HD 189733b atmosphere is hazy and cloudy.
+- There are a diverse range of properties among hot Jupiters that exhibit a continuum from clear to cloudy atmospheres. 
 
 
 
@@ -30,16 +36,49 @@ AORKEY is a unique identification number or digit sequence for each observation;
 
 
 
-*****OUT:
-nov 14
+PROBLEM 3)
 
-class time
-problem 3 and 4
+Just setting some variables, so rather easy.
 
 
-Nov 17
-class time
-problem 5 through 8
+PROBLEM 4)
+
+The first issue I am coming upon is the file structure. At first I have it where I have it loop over all possible frames, however, not all frames are contained within the same file, 64 frames each in 24 files. To deal with this, I separate into 2 distinct indexes, an index for the global frame and an index for the SPITZER file. Actually, now thinking about it, within each file, it has no memory, unless I add it but that seems computationally complex and coding wise weird. 
+
+To overcome this, 3 indexes, 1 for the spitzer file, 1 for the global frame, and 1 for the global frame in the local file, so an index 0 through 23, an index 0 through 1535, and an index 0 through 63 unique to each frame.
+
+MJD, I have dealt with before in radio astronomy so it makes sense. One thing is that the exposure time and framtime appear to be in seconds, so when indexing MJD, need to convert seconds to days.
+
+*****OUT: Friday Nov 14 16:16:37 EST 2025
+
+
+
+
+
+*****IN: Monday Nov 17 15:20:41 EST 2025
+
+PROBLEM 5)
+
+Real easy loop. I plotted the first 5 images, and in the images I see a really bright spot, around the same pixel region across all images, that are much brighter than the surroundings, only a 2x2 pixel region. Makes sense since these are already calibrated images.
+
+One thing I did think about is the fact that the datacube will just fill the sleected columns and leave the rest empty. So for now I am just doing a new routine across all frames because looking ahead it looks like we need all frames.
+
+
+PROBLEM 6)
+
+Simple mask.
+
+PROBLEM 7)
+
+
+
+PROBLEM 8)
+
+
+*****OUT: Monday Nov 17 16:15:16 EST 2025
+
+
+
 
 Nov 18
 2 hour
@@ -51,6 +90,18 @@ Wed Nov 19 11:15:12 EST 2025
 problem 11 through problem 13
 
 Wed Nov 19 12:35:59 EST 2025
+
+FRI Nov 21 12.23 pm
+
+problem 12
+easy just aperture routine
+
+problem 13
+
+
+
+
+problem 14 binning
 
 
 
