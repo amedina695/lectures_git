@@ -126,19 +126,46 @@ Looped over all images and updated the array.
 
 PROBLEM 14)
 
-Plotting the results and comparing across all frames, there is not clear transit. I keep adjust settings such as the width of the aperture, the subsize of the image for the fit. The pixel locations seem fine, and the masks work well to, so I'm not quite sure why its not showing up well.
+Plotting the results and comparing across all frames, there is a clear transit.Comparing the frames, there are a few outliers, so I am removing them despite the clear transit just to clean up the data.
 
+Plotting the X and Y centers, they tend to be pretty consistent, however there is a weird shift around 25000 frame area which I am told is due to camera rotation. For the bad pixels, these frames are removed for the new_good frames, which simply requires removing the outliers which was just a few lines, so not much needed to be done. One thin, however, is that for the aperture photometry, I did have to increase the width significantly to cover the whole star. My guess is that the guassian fit does a good job at finding the center because it is so bright, however, those center pixels are much brighter than the lim so the tails of the Gaussian are around the limb of the star which makes over 99 percent of the star reasonable under the Guassian fit but needs a little more do take into acount the limb of the star, especially during transit.
+
+In the first three bad frames, there is a clear bright pixel, and also a streak that goes down the middle, could be some sort of camera effect as apposed to a cosmic ray, we see both though.
 
 *****OUT: Friday Nov 21 13:34:29 EST 2025
 
+
+
+
+
+*****IN: Saturday Nov 22 9:01:05 EST 2025
+
 PROBLEM 15)
+
+Binning the data just using np.histrogram from old assignments.
 
 PROBLEM 16)
 
+Just making a best guess of contact locations in frames.
+
 PROBLEM 17)
 
+Dealing with out of transit frames, unsing np.ployval to do a quandratic fit, of degree 2. Using this fit to normalized ALL of the data. Since I am plottign ALL the frames, I also add a final graph with the good frames for plublication.
+
+FOr the purpoes of the paper, I am making the x axis for the plots in MJD, because its more universal than frames, frames are unique to this dataset but also rather arbitrary.
+
+
+*****OUT: Saturday Nov 22 11:04:08 EST 2025
+
+
+
+
+
+*****IN: Sunday Nov 23 10:35:58 EST 2025
 PROBLEM 18)
 
 PROBLEM 19)
 
 PROBLEM 20)	
+
+
