@@ -70,38 +70,75 @@ Simple mask.
 
 PROBLEM 7)
 
-
+Median is okay, there ia a consistant variability however.
 
 PROBLEM 8)
 
+Sigma rejection used from the old hw assignments with astropy. They key difference, by looking at astropy sigma_clip documentation is that we have to invert the mask becasue it flags the clipped values as true but want the reverse.
 
 *****OUT: Monday Nov 17 16:15:16 EST 2025
 
 
 
 
-Nov 18
-2 hour
-problem 9
-problem 10
+
+*****IN: Tuesday Nov 18 13:01:48 EST 2025
+
+PROBLEM 9)
+
+Inner nexted loop went easy. Some deubgging whas needed to end the batch of 64 but that comes before. For some reason I was doing it after but it makes more sense this way.
+
+PROBLEM 10)
+
+Approximate location just copied routine from HW 7.
 
 
-Wed Nov 19 11:15:12 EST 2025
-problem 11 through problem 13
-
-Wed Nov 19 12:35:59 EST 2025
-
-FRI Nov 21 12.23 pm
-
-problem 12
-easy just aperture routine
-
-problem 13
+*****OUT: Tuesday Nov 19 15:03:03 EST 2025
 
 
 
 
-problem 14 binning
+
+*****IN: Wednesday Nov 19 11:15:12 EST 2025
+
+PROBLEM 11)
+
+For the fainter companion, I just used the median image, eyeballed the location adn did a fit. THe offset appears okay and it was easy to apply them to all.
+
+To verify, I am showing the results.
+
+PROBLEM 12)
+
+I just copied the routine from practicum, and I am plotting in a hardcoded seciton just to verify the code is working.
+
+PROBLEM 13)
+
+Looped over all images and updated the array.
+
+
+*****OUT: Wednesday Nov 19 12:35:59 EST 2025
 
 
 
+
+
+*****IN: Friday Nov 21 12:23:14 EST 2025
+
+PROBLEM 14)
+
+Plotting the results and comparing across all frames, there is not clear transit. I keep adjust settings such as the width of the aperture, the subsize of the image for the fit. The pixel locations seem fine, and the masks work well to, so I'm not quite sure why its not showing up well.
+
+
+*****OUT: Friday Nov 21 13:34:29 EST 2025
+
+PROBLEM 15)
+
+PROBLEM 16)
+
+PROBLEM 17)
+
+PROBLEM 18)
+
+PROBLEM 19)
+
+PROBLEM 20)	
