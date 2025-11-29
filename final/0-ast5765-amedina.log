@@ -1,7 +1,7 @@
 Alex Medina
 Log for AST 5765 Final, Fall 2025
 
-*****IN: Friday Nov 14 14:35:12 EST 2025
+*****IN: Wedesday Nov 12 14:35:12 EST 2025
 
 PROBLEM 1)
 
@@ -49,7 +49,7 @@ To overcome this, 3 indexes, 1 for the spitzer file, 1 for the global frame, and
 
 MJD, I have dealt with before in radio astronomy so it makes sense. One thing is that the exposure time and framtime appear to be in seconds, so when indexing MJD, need to convert seconds to days.
 
-*****OUT: Friday Nov 14 16:16:37 EST 2025
+*****OUT: Wednesday Nov 12 16:16:37 EST 2025
 
 
 
@@ -138,7 +138,7 @@ In the first three bad frames, there is a clear bright pixel, and also a streak 
 
 
 
-*****IN: Saturday Nov 22 9:01:05 EST 2025
+*****IN: Sunday Nov 23 9:01:05 EST 2025
 
 PROBLEM 15)
 
@@ -155,13 +155,13 @@ Dealing with out of transit frames, unsing np.ployval to do a quandratic fit, of
 FOr the purpoes of the paper, I am making the x axis for the plots in MJD, because its more universal than frames, frames are unique to this dataset but also rather arbitrary.
 
 
-*****OUT: Saturday Nov 22 11:04:08 EST 2025
+*****OUT: Sunday Nov 23 11:04:08 EST 2025
 
 
 
 
 
-*****IN: Sunday Nov 23 10:35:58 EST 2025
+*****IN: Tuesday Nov 25 12:35:58 EST 2025
 PROBLEM 18)
 
 Going decent, for a second I was worreid because for the SNR I recall the formula from Howell, however, basic statistics of our observations (week 3 lectures) we saw that SNR for i was just mean_i / sigma_i.
@@ -171,7 +171,7 @@ PROBLEM 19)
 Just working through some math. I am building a rough representation based off of a previous problem I worked on given here:
 https://github.com/amedina-astr/num_methods_astro/blob/main/num_pset3_AM.ipynb
 
-*****OUT: Sunday Nov 23 13:04:45 EST 2025
+*****OUT: Tuesday Nov 25 15:04:45 EST 2025
 
 
 
